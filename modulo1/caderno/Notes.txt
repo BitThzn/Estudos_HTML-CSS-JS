@@ -1,0 +1,118 @@
+Repositorios publicos do estudo {
+
+        GitHubhttps://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
+        gustavoguanabara.github.io
+
+}
+
+Referencias online {
+
+        Referencia MDN — Mozila Developer Network
+        W3C Standards — World Wide Web Consortium
+        WHATWG Livifng Standards — Web Hypertext Application Technology Working Group
+        W3Schools — Refsnes Data
+
+}
+
+Livros {
+
+        HTML5 — Mark Pilgrim, O'Reilly
+        CSS — Eric Meyer, O'Reilly
+        Flexboxx in CSS — Estelle Weyl, O'Reilly
+        Grid Layout in CSS — Eric Meyer, O'Reilly
+        HTML5 e CSS3 — Elizabeth Castro e Bruce Hyslop, Alta Books
+        HTML e CSS — Jon Duckett, Alta Books
+        HTML e CSS — Elizabeth Robson Eric Freeman, Alta Books
+        Cire seu proprio site — Nate Cooper e Kim Gee, Novatec
+        HTML5 — Mauricio Samy Silva, Novatec
+        CSS3 — Mauricio Samy Silva, Novatec
+        Fundamentos de HTML5 e CSS3 — Mauricio Samy Silva, Novatec
+        CSS Grid Layout — Mauricio Samy Silva, Novatec
+
+}
+
+Representação de Dados {
+        
+        Pesquisar por: Codigo multibyte UTF-8 — Acesso a tabela de bytes
+
+}
+
+- HTML linguagem focada a conteudo: texto, imagem, video, tabelas, etc -
+- CSS linguagem focada em design: cores, sombras, tamanhnos, posicionamento - 
+- JS lingaugem focada em interações: menmus, anmimações, popups, validações -
+
+-----------------------------------------------------------------------------
+
+Conteudo em HTML
+
+<h1> -> abertura de tag
+</h1> -> fechamento de tag
+
+<h1> Exemplo de titulo </h1>
+
+<p> Exemplo de paragrafo </p>
+
+<img src="foto.png"                        alt="Exemplo de foto">
+<img srt="" (Abertura de tag)          alt="" (paramentro="valor")
+
+-----------------------------------------------------------------------------
+
+Estilo em CSS
+
+h1 { (seletor->declarações->propriedade->valor)
+        Font-family: Arial; 
+        font-size: 20pt;
+        color: blue;
+}
+
+h1 - é um seletor
+font-family - é uma declaraçao
+cada declaraçao e um par de propriedade com valores
+color e uma propriedade com valor blue.
+
+-----------------------------------------------------------------------------
+
+Estrutura basica de um documento HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+.       <head>
+.               <meta carset="UTF-8">
+.               <meta name="viewport" content= "width=device=width, initial-scale=1.0">
+.               <title>Document</title>
+.       </head>
+.
+.       <body>
+.               <h1>Olá, mundo!</h1>
+.       </body>
+.
+.
+</html>
+
+<meta carset="UTF-8"> -> para dar compatibilidade a acentuações, principal para sites em portugues.
+<meta name="viewport" content= "width=device=width, initial-scale=1.0"> -> Site ocupa 100% da parte branca, sempre vai abrir padrão.
+
+-----------------------------------------------------------------------------
+
+FRONT-END{
+        HTML, CSS, JS
+}
+
+BACK-END {
+        PHP, JS, C#, PYTHON, SQL, JAVA
+}
+
+FULLSTACK - piroca na mesa.
+
+-----------------------------------------------------------------------------
+
+Tabela para simbulos:
+https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/05%20-%20Caracteres%2C%20par%C3%A1grafos%20e%20quebras%20de%20linha.pdf
+
+
+-----------------------------------------------------------------------------
+
+Sites para imagens sem copyright{
+        Unsplash
+        Pexels
+}

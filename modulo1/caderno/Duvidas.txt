@@ -1,0 +1,33 @@
+#### 1 - Como faz para configurar uma tag  expecifica do index no css?
+
+Ex:
+
+    <p>Voce pode escrever um paragrafo de qualquer jeitoi, basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt; </p>
+    <p>se precisar quebrar
+        o texto em algum lugar
+        especifico <br> como esse, 
+        vc pode usar a tag &lt;br&gt;.
+    </p>
+
+
+Eu quero organizar aquele "BR" entre "especifico" e "como esse"
+como faço para poder configuar apenas aquele espaçamento? caso exista mais tipos de br, nao ira pegar a configurção de um e puxar para todos?
+
+
+
+
+#### Resposta:
+
+Simples, basta definir uma classse dentro da tag, por exemplo:
+
+    <p>
+        se precisar quebrar
+        o texto em algum lugar
+        especifico <br class="br1"> como esse, 
+        vc pode usar a tag &lt;br&gt;.
+    </p>
+
+Classes podem ser definidas dentro de tags para a configuração das tags.
+
+
+-----------------------------------------------------------------------
