@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/ovo.png" type="image/x-icon">
+    <title>Praticando</title>
+</head>
+<body>
+    <h1> Espero que vc tenha sido inteligente e nao tenha clicado na casa...</h1>
+
+    <p> Praticamente o que eu tenho apreendido esses ultimos dias é realmente isso que voces ja estao vendo</p>
+    <p> a pratica é esse site, estou usando <code>&lt;picture&gt;</code> para fazer esses botoes como por exemplo a flecha para ir até outra pagina, o que realmente foi aprendido</p>
+    <picture>
+        <a href="#"> <img class="felca" src="img/flecha.png" alt=""></a>
+    </picture>
+    <p> Dessa forma eu posso criar links interativos com imagens, melhorando a experiência do usuário. A ideia de fazer um botão é mais facil usando a tag de button? talvez seja sim, mas fodase </p>
+    <img src="img/fodase.png" alt="bixin tomando café">
+    <br>
+    <h2> como foi feito essa interação com imagens? </h2>
+    <p>todos nos aqui sabemos que voce clicou na casa, se n clicou muito provavelmente vc chegou aqui e leu o titulo e voltou la so para clicar</p>
+    <p class="esquisito"> se vc nao fez nada disso e veio aqui direto, voce é esquisito e perdeu a piada... </p>
+
+    <p> entao, para fazer isso, basta usar a tag <code>&lt;picture&gt;</code> e colocar a imagem dentro dela, depois disso, basta colocar um link usando a tag <code>&lt;a&gt;</code> e colocar a imagem dentro do link, assim quando o usuario clicar na imagem, ele sera redirecionado para a pagina que voce colocou no link </p>
+    <p> 
+        e o mais legal, é que voce pode usar qualquer imagem para fazer isso o codigo n é nada de outro mundo, é basicamente isso aqui:
+    </p>
+    <pre>
+&lt;picture&gt;
+    &lt;a href="index.html"&gt; &lt;img class="qporraeessa" src="gatofeidaporra.png" alt="gato feio porra"&gt;&lt;/a&gt;
+&lt;/picture&gt;
+    </pre>
+
+    <p>Nesse codigo a gente ve a tag Picture, que permite que a gente possa modelar a imagem da forma que a gente achar melhor no HTML, dentro desse elemento, podemos aplicar estilos e comportamentos específicos para a imagem. Tbm podemos ver ali que ele esta ligado a pagina  <strong>INDEX.HTML</strong>, o q vai fazer que assim que você clicar na imagem ele vai te levar direto para a pagina <strong>INDEX.HTML</strong></p>
+    <p> Em <strong>IMG</strong> podemos ver que esta definido uma classe, que permite com que a gente possa aplicar estilos específicos à imagem dentro do <strong>CSS</strong>, e o nosso SRC seria claramente o direcionamento de onde a imagem esta armazenada. O <strong>ALT</strong> serve para especificar a imagem</p>
+
+    <p>
+        é por enquanto é isso, de resto o que tenho visto é sobre modelagem de imagem, e imagens dinamicas, tbm algumas coisas sobre ligações, que foram usadas nessa aula, como por exemplo os links para as outras paginas, ou o link para a pagina do github do Matt...
+    </p>
+    <p>
+        mas por hoje realmente é isso, espero que tenha sido util para quem esta lendo, e espero que tenha sido divertido, porque eu me diverti muito fazendo isso aqui...
+    </p>
+    <img class="go" src="img/go.png" alt="go drinking - vai tomando">
+    <br>
+       <p class="felcatxt">o fogo da casa ja esta sendo resolvido, voce pode voltar para pagina inicial agora se quiser... </p>
+    <picture>
+        <a href="index.html"> <img class="felca" src="img/flecha.png" alt=""></a>
+    </picture>
+    
+</body>
+</html>
