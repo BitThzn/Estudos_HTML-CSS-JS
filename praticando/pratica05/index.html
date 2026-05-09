@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="midia/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title> oi </title>
+</head>
+<body>
+    <h1 class="oi"> Oi </h1>
+    <img src="midia/icon.jpg" alt="penguim com granada nas costas">
+
+    <h2>A situação é simples....</h2>
+    <p>to sem criatividade pra pensar numa ideia legal de pratica, entao vou tentar fazer qualquer merda ate sair algo</p>
+    <p class="txtcinza"> ~ e sim, o penguim ali em cima na esquerda de proposito, nao esta errado ~ </p>
+    <h1 class="space"> O que temos para hoje??</h1>
+    <p>Por encrivel que parivel temos coisas legais, muito por sinal... </p>
+    <p class="audio-linha">
+    Hoje trago voces isso aqui →
+    <audio class="bomdia" src="midia/bom-dia-magnata.mp3" controls preload="metadata"></audio>
+    <p>kkkkkkkkkkkkk bom dia</p>
+
+    <p> codigo usado para fazer isso hoje ficou assim:</p>
+    <br>
+    <pre class="audio-linha"><code>
+        &lt;p&gt; class="audio-linha"
+            Hoje trago voces isso aqui →
+            &lt;audio class="bomdia" src="midia/bom-dia-magnata.mp3" controls preload="metadata"&gt;&lt;/audio&gt;
+        &lt;/p&gt;
+        
+    </code></pre>
+    <br>
+    <p>O resto do codio fica carregado no CSS, sendo ele assim: </p>
+    <pre class="audio-linha"><code>
+        
+        audio-linha {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+    </code></pre>
+    <h2>Ta, mas pra que serve tudo essa bosta?</h2>
+    <p> vamos por partes...</p>
+    <ul>
+        <li>
+            <p>
+                Teremos no nosso &lt;P&gt; uma classe chamada <em>"audio-linha"</em> aonde ele ira nos ajudar a configurar tudo no CSS.
+            </p>
+        </li>
+        <li>
+            <p>
+                Logo depois possuimos nosso texto: "Hoje trago voces isso aqui →", que segue da tag de audio, que tambem possui uma classe chamada "bomdia"
+            </p>
+        </li>
+        <li>
+            <p>
+                Por padrão, tbm teremos o SRC que carrega nossa informação de onde o audio vai estar...
+            </p>
+        </li>
+        <li>
+            <p>
+               Tambem temos controls, que seria no caso os botoes para que o usuario possa interagir com os comandos do conteudo proposto 
+            </p>
+        </li>
+        <li>
+            <p>
+                O preload="metadata" define que apenas as informações básicas do arquivo (como duração, dimensões e outros dados essenciais) serão carregadas inicialmente.
+            </p>
+        </li>
+        <P>
+            Por hoje é so, vou voltar a ficar fuçando coisas aqui ate achar coisas, até mais meus queridos!!!
+        </P>
+    </ul>
+
+    <img class="catworking" src="midia/hardtoworking.jpg" alt="">
+</body>
+</html>
